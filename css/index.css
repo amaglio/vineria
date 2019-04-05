@@ -38,7 +38,8 @@ h5.titulo_footer{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 600px;
+ 	height: 600px;
+ 	overflow: visible;
 
 }
 
@@ -53,7 +54,7 @@ h5.titulo_footer{
 #carrusel_div_3{
 	background-image: url('../img/carrusel/imagen3.jpg'); 
 }
-
+	
 
 #texto{
 	padding: 40px;
@@ -76,4 +77,12 @@ color: white;
 
 #productos{
 	padding: 60px 0px;
+}
+
+#button_up{
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin: 30px;
 }
