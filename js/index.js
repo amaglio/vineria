@@ -64,3 +64,25 @@ $(function(){
 
 	
 });
+
+
+$(function(){
+	
+	$("#button_up").click(function(){
+		console.log("apreto");	
+		//$(window).scrollTop(0);
+		//$("html, body").animate({ scrollTop: 0 }, 600);
+		 $("HTML, BODY").animate({ scrollTop: 0 }, 1000); 
+	})
+ 
+
+	 
+});
+
+$(function(){
+	
+ 	 $('.img_producto').addClass('animated fadeInDown delay-1s slow');
+ 	 $('#video').addClass('animated zoomIn delay-1s slower');
+
+	
+});
