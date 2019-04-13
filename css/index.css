@@ -77,7 +77,8 @@ color: white;
 
 
 #productos{
-	padding: 60px 0px;
+	padding: 30px 0px;
+	height: 322px;
 }
 
 #button_up{
@@ -145,7 +146,7 @@ footer ul{
 	opacity: 0;
 	transition: .5s ease;
 	background-color: #2D2D2D99;
-	color: white;
+	color: white: ;
 	margin: auto;
 	text-align: center;
 	padding: 20px;
@@ -154,4 +155,58 @@ footer ul{
 
 .container .overlay:hover {
   opacity: 1;	
+}
+
+
+/* ROTAR IMAGENES */
+
+ /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 253px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+ 
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #fff0;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #2d2d2d;
+  color: white;
+  transform: rotateY(180deg);
+} 
+
+
+.flip-box-back h2{
+	padding:20px;
 }
