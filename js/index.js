@@ -41,6 +41,7 @@ $(function(){
 	var lastScrollTop = 0;
 
 	$(window).scroll(function(event){
+
 	   var st = $(this).scrollTop();
 	   if (st > lastScrollTop){
 	       // downscroll code
@@ -58,7 +59,27 @@ $(function(){
 	   		$("#button_up").css("display","none");
 	   }
 
-	   console.log(lastScrollTop);	
+		console.log(lastScrollTop);	
+
+
+
+	   switch(true){
+
+			case (lastScrollTop > 200 && lastScrollTop < 700):
+	   				
+	   				
+	   				$('#video').css('visibility','visible');
+	   				$('#video').addClass('animated zoomIn delay-1s slower');
+	   				break;
+
+	   		case (lastScrollTop > 700  ):
+	   				$('#producto').css('visibility','visible');
+	   				$('#producto').addClass('animated zoomIn delay-1s slower');
+	   				break;
+	   		
+ 
+
+	   }
 
 	});
 
@@ -82,7 +103,6 @@ $(function(){
 $(function(){
 	
  	 $('.img_producto').addClass('animated fadeInDown delay-1s slow');
- 	 $('#video').addClass('animated zoomIn delay-1s slower');
-
+ 
 	
 });

@@ -54,7 +54,11 @@ h5.titulo_footer{
 #carrusel_div_3{
 	background-image: url('../img/carrusel/imagen3.jpg'); 
 }*/
-	
+
+ #video ,#producto{
+	visibility: hidden;
+}
+
 
 #texto{
 	padding: 40px;
