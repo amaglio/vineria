@@ -1,18 +1,25 @@
 body{
-	font-family: 'Comfortaa', cursive;
+ 
+    font-family: 'PT Serif';
+  
+  font-weight: 400;
+  src: local('PT Serif Italic'), local('PTSerif-Italic'), url(https://fonts.gstatic.com/s/ptserif/v10/EJRTQgYoZZY2vCFuvAFT_rC1chb-.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+ 
 }
 
 h5.titulo_footer{
 	color: #a6975e;
-	font-family: "PT Serif", sans-serif;
+ 
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 500;
 }
 
 .navbar{
-	padding: 30px 0px;
-	background-image: linear-gradient(#000000b3, #fff0);
+	padding: 75px 0px;
+	/*background-image: linear-gradient(#000000b3, #fff0);*/
+	background-image: linear-gradient(#000F00, #fff0);
 	position: absolute;
 	float: left;
 	top: 0px;
@@ -33,8 +40,13 @@ h5.titulo_footer{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
- 	height: 500px;
+ 	height: 100%;
  	overflow: visible;
+
+}
+
+#navbar-br{
+color: white;	
 
 }
 
@@ -42,6 +54,42 @@ h5.titulo_footer{
 	width: inherit;
 }
 
+.img_producto{
+
+	border-radius: 0px !important;
+}
+
+#vinos_aceites{
+	padding: 50px 0px;
+}
+
+.titulo_servicio{
+	position: relative;
+
+margin-top: -50% !important;
+
+color: #FFF;
+
+background-color: #a6975eb3;
+
+font-size: 27px;
+
+padding: 20px 0px;
+ }
+
+#div_aceite
+{
+background-color: #a6975e33;
+padding: 20px 40px;
+
+}
+
+#div_vinos
+{
+ 
+padding: 20px 40px;
+
+}
 /*
 #carrusel_div_1{
 	background-image: url('../img/carrusel/imagen1.jpg'); 
@@ -55,28 +103,51 @@ h5.titulo_footer{
 	background-image: url('../img/carrusel/imagen3.jpg'); 
 }*/
 
+/*
  #video ,#producto{
 	visibility: hidden;
-}
+}*/
 
+
+ #video {
+	height: 650px;
+} 
 
 #texto{
+	/*
 	padding: 40px;
-	/*background-color: #393939;*/
+	/*background-color: #393939;
 	background-color: #2d2d2d;
 	color: rgb(166, 151, 94);
 	font-size: 30px;
-	font-weight: 100;
+	font-weight: 100;	
+	*/
+	background-color:	#a6975e;
+	font-size: 23px; 
+	line-height: 35px; 
+	font-weight: 700; 
+	color: #ffffff; 
+	letter-spacing: 0px;
+	font-family:PT Serif;
+	padding: 40px 20px;
+	position: relative;
+	margin-top: -12.6%;
 }
 
 .text-video{
 	padding: 60px;
-background-color: #0000004d;
+background-color: #0000004d;	
 width: 80%;
 position: relative;
 top: -385px;
 left: 10%;
 color: white;
+}
+
+.servicio{
+
+	padding-left: 0px; 
+	padding-right: 0px;
 }
 
 
@@ -169,7 +240,9 @@ footer ul{
   background-color: transparent;
   width: 100%;
   height: 100%;
-  border: 1px solid #f1f1f1;
+  /*border: 1px solid #f1f1f1;*/
+  border: none;
+  border-radius: 0px !important;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -208,9 +281,52 @@ footer ul{
   background-color: #2d2d2d;
   color: white;
   transform: rotateY(180deg);
+  height:inherit !important;
+  padding: 20px;
 } 
 
 
 .flip-box-back h2{
 	padding:20px;
 }
+
+.flip-box-front .img-fluid {
+
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/* Media querys */
+ 
+
+
+@media (max-width: 991px){   
+	
+	.navbar-brand{
+		display: none;
+	} 
+
+	.navbar{
+		padding: 10px;
+	}
+	 
+	#texto {	
+ 	
+	    font-size: 15px;
+	    padding: 15px;
+	    
+	} 	
+	
+	.navbar-toggler{
+
+	    position: relative;   
+	    left: 90% !important;
+
+	}
+ 
+}
+
+ 
