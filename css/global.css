@@ -1,0 +1,236 @@
+body{
+ 
+	font-family: 'PT Serif';
+	font-weight: 400;
+	src: local('PT Serif Italic'), local('PTSerif-Italic'), url(https://fonts.gstatic.com/s/ptserif/v10/EJRTQgYoZZY2vCFuvAFT_rC1chb-.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+ 
+}
+
+
+.navbar{
+	padding: 35px 0px;
+	/*background-image: linear-gradient(#000000b3, #fff0);*/
+	background-image: linear-gradient(#000F00, #fff0);
+	position: absolute;
+	float: left;
+	top: 0px;
+	z-index: 5000;
+	width: 100%;
+	background-color: #f000 !important;
+	font-size: 16px;
+	font-weight: 400;	
+}
+
+.navbar-brand{
+	font-size: 50px;
+	color: white !important;
+}  
+
+.navbar-brand-mobile{
+	display: none;
+}
+
+.nav-link{
+	color: white !important;
+}
+
+
+.carousel-item{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+ 	height: 100%;
+ 	overflow: visible;
+
+}
+
+#navbar-br{
+color: white;	
+
+}
+
+.carousel-inner img{
+	width: inherit;
+}
+
+
+h5.titulo_footer{
+	color: #a6975e;
+ 
+	font-size: 115%;
+	font-style: normal;
+	font-weight: 500;
+}
+
+#texto{
+ 
+	background-color:	#a6975e;
+	font-size: 23px; 
+	line-height: 35px; 
+	font-weight: 700; 
+	color: #ffffff; 
+	letter-spacing: 0px;
+	font-family:PT Serif;
+	padding: 40px 20px;
+	position: relative;
+	margin-top: -12.6%;
+}
+
+
+/* ANIMACIONES */
+
+
+footer{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* FOOTER */
+
+
+footer{
+	padding: 50px 30px;
+	background-color: #2d2d2d;
+	margin-top: 50px;
+	color:white;
+}
+
+footer p{
+	margin:30px 0px;
+	font-size: 13px;
+}
+
+footer ul{
+	list-style: none;
+}
+
+
+.container .overlay:hover {
+  opacity: 1;	
+}
+
+
+/* ROTAR IMAGENES */
+
+ /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  /*border: 1px solid #f1f1f1;*/
+  border: none;
+  border-radius: 0px !important;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 253px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+ 
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #fff0;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #2d2d2d;
+  color: white;
+  transform: rotateY(180deg);
+  height:inherit !important;
+  padding: 20px;
+} 
+
+
+.flip-box-back h2{
+	padding:20px;
+}
+
+.flip-box-front .img-fluid {
+
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+
+}
+
+/*
+	Cambia a responsive segun boostrap
+ */
+@media (max-width: 991px){   
+	
+	h5.titulo_footer{
+
+	}
+
+	.navbar-brand{
+		display: none;
+	} 
+
+	.navbar{
+		padding: 10px;
+	}
+
+	.navbar-brand-mobile{
+			display: block; 
+	}
+
+	.navbar-light .navbar-toggler{
+		border: 1px solid #bcbcbc;
+		color: #f0e1e1;
+		padding: 10px 15px;
+		font-size: 30px;
+		background-color: #00000080;
+	}
+	 
+	#texto {	
+ 	
+	    font-size: 15px;
+	    padding: 15px;
+	    
+	} 	
+	
+	.navbar-toggler{
+
+	    position: relative;   
+	    left: 90% !important;
+
+	}
+
+	#navbarSupportedContent
+	{
+ 
+		background-color: #000c !important;
+	}
+	
+	.navbar-nav .nav-link {
+	    padding: 20px 10px;
+	    border-bottom: 0.5px solid #a6975e80;
+	}
+	
+ 
+}

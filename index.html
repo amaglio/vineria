@@ -14,6 +14,7 @@
 	<!-- Bootstrap	 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	
 	<!-- CSS animate -->
@@ -36,41 +37,43 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
 			
-<!-- <h1 class="animated zoomInLeft delay-2s">Example</h1> -->
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  	</button>
-
-			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				    <ul class="navbar-nav col-md-5">
-				      <li class="nav-item  col-md-4 ">
-				        <a class="nav-link" href="vinos.html">Vinos </a>
-				      </li>
-				      <li class="nav-item col-md-4">
-				        <a class="nav-link" href="#">Aceites</a>
-				      </li>
-				      <li class="nav-item col-md-3">
-				        <a class="nav-link" href="#">Bodega</a>
-				      </li>
-				    </ul>
-				    <a class="navbar-brand col-md-2 text-center" style="font-size: 50px"  href="./index.html">VYO </a>
-				    <ul class="navbar-nav col-md-5">
-				       <li class="nav-item  col-md-3">
-				        <a class="nav-link" href="#">Día de campo</a>
-				      </li>
-				      <li class="nav-item col-md-3">
-				        <a class="nav-link" href="#">Executive quinton	</a>
-				      </li>
-				      <li class="nav-item col-md-3">
-				        <a class="nav-link" href="#">Servicios industriales</a>
-				      </li>
-				       <li class="nav-item col-md-3">
-				        <a class="nav-link" href="#">Contacto</a>
-				      </li>
-				    </ul>
-				 </div>
 			
+			<a class="navbar-brand navbar-brand-mobile " style="font-size: 50px"  href="./index.html">VYO </a>
+			
+			<button class="navbar-toggler" style="position: inherit;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    	<i class="fas fa-bars"></i>
+		  	</button>
+		   
+
+		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav col-lg-5  ">
+			      <li class="nav-item  col-lg-4 ">
+			        <a class="nav-link" href="vinos.html">Vinos </a>
+			      </li>
+			      <li class="nav-item col-lg-4">
+			        <a class="nav-link" href="#">Aceites</a>
+			      </li>
+			      <li class="nav-item col-lg-3">
+			        <a class="nav-link" href="#">Bodega</a>
+			      </li>
+			    </ul>
+			    <a class="navbar-brand col-lg-2 text-center"    href="./index.html">VYO </a>
+			    <ul class="navbar-nav col-lg-5">
+			       <li class="nav-item  col-lg-3">
+			        <a class="nav-link" href="#">Día de campo</a>
+			      </li>
+			      <li class="nav-item col-lg-3">
+			        <a class="nav-link" href="#">Executive quinton	</a>
+			      </li>
+			      <li class="nav-item col-lg-3">
+			        <a class="nav-link" href="#">Servicios industriales</a>
+			      </li>
+			       <li class="nav-item col-lg-3">
+			        <a class="nav-link" href="#">Contacto</a>
+			      </li>
+			    </ul>
+			 </div>
+		
 		</div>
 	</nav>
 	
@@ -82,11 +85,11 @@
 			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="height: 80% !important">
 
 				<div class="carousel-inner">
-					<ul class="carousel-indicators">
+					<!-- <ul class="carousel-indicators">
 					    <li class="item1 active"></li>
 					    <li class="item2"></li>
 					    <li class="item3"></li>
-					  </ul>
+					  </ul> -->
 				    <div id="carrusel_div_1" class="carousel-item active">  
 				    		<img src="img/carrusel/imagen1.jpg"> 
 				    </div>
@@ -119,18 +122,18 @@
 		</section>
  
 		<!-- Productos -->
-		<section id="productos">
+		<section id="productos	">
 			<div class="container">
 				<div class="row">
 					
-				  	<div class="col-md-4 servicio">
+				  	<div class="col-lg-4 col-md-4 servicio">
 				  		
 
 				  		<div class="flip-box">
 						  <div class="flip-box-inner">
 						    <div class="flip-box-front">
 						     <img src="./img/bodega.jpg" class="img-responsive img-fluid rounded img_producto"> 
-						     <div class="titulo_servicio">BODEGA</div>
+						     <h2 class="titulo_servicio">BODEGA</h2>
 						    </div>
 						    <div class="flip-box-back">
 						      <h2>BODEGA</h2>
@@ -138,11 +141,9 @@
 						    </div>
 						  </div>
 						</div>
-
-
 				  	</div>
 
-				  	<div class="col-md-4 servicio">
+				  	<div class="col-lg-4 col-md-4 servicio">
 			  			<div class="flip-box">
 						  <div class="flip-box-inner">
 						    <div class="flip-box-front">
@@ -157,7 +158,7 @@
 						</div>
 				  	</div>
 
-				  	<div class="col-md-4 servicio">
+				  	<div class="col-lg-4 col-md-4 servicio">
 				  		
 
 				  		<div class="flip-box">
@@ -174,7 +175,8 @@
 						</div>
 
 
-				  	</div>
+
+ 			  	</div>
 
 				</div>
 			</div>
@@ -186,7 +188,7 @@
 			<div class="container">
 				<div class="row">
 				 
-					<div class="col-md-6" id="div_vinos">
+					<div class="col-lg-6" id="div_vinos">
 					 	
 						<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"  >
 
@@ -194,10 +196,10 @@
 								 
 							    <div id="carrusel_div_1" class="carousel-item active">  
 							    	<div class="row">
-								    	<div class="col-md-5">
+								    	<div class="col-lg-5 col-xs-12">
 								    		<img class="img-fluid" src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
 								    	</div>
-								    	<div class="col-md-7">
+								    	<div class="col-lg-7 col-xs-12">
 								    		<h5>Malbec Selección | Gran Reserva</h5>
 								    		<h1>Bruna Etiqueta Negra</h1>
 								    		<p>24 meses en barrica de roble francés</p>
@@ -207,10 +209,10 @@
 							    </div>
 							    <div id="carrusel_div_2" class="carousel-item"> 
 							    	<div class="row">
-								    	<div class="col-md-5">
+								    	<div class="col-lg-5 col-xs-12">
 								    		<img src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
 								    	</div>
-								    	<div class="col-md-7">
+								    	<div class="col-lg-7 col-xs-12">
 								    		<h5>Malbec Selección | Reserva</h5>
 								    		<h1>Bruna</h1>
 								    		<p>14 meses en barrica de roble francés</p>
@@ -220,10 +222,10 @@
 							    </div>
 							    <div id="carrusel_div_3" class="carousel-item"> 	
 							    	<div class="row">
-								    	<div class="col-md-5">
+								    	<div class="col-lg-5">
 								    		<img src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
 								    	</div>
-								    	<div class="col-md-7">
+								    	<div class="col-lg-7">
 								    		<h5>Malbec</h5>
 								    		<h1>Petra</h1>
 								    		<p>12 meses en barrica de roble francés</p>
@@ -246,15 +248,15 @@
 
 
 					</div>
-					<div class="col-md-6" id="div_aceite">
+					<div class="col-lg-6" id="div_aceite">
 					 	 
 					    <div id="aceite_oliva">  
 					    	<div class="row">
-					    		<div class="col-md-6">
+					    		<div class="col-lg-6">
 						    		<h5>Aceite de Oliva Extra Virgen</h5>
 						    		<h1>Piedras del Olivar</h1> 
 						    	</div>	
-						    	<div class="col-md-6">
+						    	<div class="col-lg-6">
 						    		<img class="img-fluid" src="./img/aceites/aceite.png"> 
 						    	</div>
 						    	
@@ -276,10 +278,8 @@
 				<p>
 					Offering an elegant wedding experience in lovingly restored classic surroundings, with magnificent views and complimented with world class cuisine and wines.  Mission provides the complete wedding service all in the one convenient and stunning location.
 				</p>
-			</div>
-			   
+			</div>			   
 		</section>
-
 
 		 
 	</main>
@@ -288,7 +288,7 @@
 	<footer>
 	  	<div class="container footer">
 	    	<div class="row">
-	    		<div class="col-md-3 col-xs-12">
+	    		<div class="col-lg-3 col-xs-12">
 					<h5 class="titulo_footer">Viñedos y Olivares del Quintón</h5>
 					<div>
 						<p>
@@ -298,7 +298,7 @@
 						</p>
 					</div>
 	    		</div>
-	    		<div class="col-md-3 col-xs-12">
+	    		<div class="col-lg-3 col-xs-12">
 					<h5 class="titulo_footer">Contáctanos</h5>
 					<p>
 						Office: <a href="tel:06 845 9350">06 845 9350</a> <br>
@@ -306,7 +306,7 @@
 						Cellar Door: <a href="tel:06 845 9353">06 845 9353</a>
 					</p>
 	    		</div>
-	    		<div class="col-md-3 col-xs-12">
+	    		<div class="col-lg-3 col-xs-12">
 	    			<h5 class="titulo_footer">Nuestros productos</h5>
 	    			<p>
 		    			<ul>
@@ -316,7 +316,7 @@
 		    			</ul>
 		    		<p>
 	    		</div>
-	    		<div class="col-md-3 col-xs-12">
+	    		<div class="col-lg-3 col-xs-12">
 	    		 	<h5 class="titulo_footer">Nuestros servicios</h5>
 	    			<ul>
 	    				<li>Día de campo</li>
@@ -327,7 +327,6 @@
 	    	</div>	
 	  	</div>
 	</footer> 
-
 
 	<div id="div_button_up">
 		<button class="btn btn-primary" id="button_up">

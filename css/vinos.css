@@ -1,0 +1,28 @@
+#slide_vino{
+	height: 350px;
+	padding-top: 135px;
+}
+
+
+.navbar{
+	background-image: none;
+}
+
+.nav-link {
+
+    color: #000 !important;
+
+}
+
+.navbar-brand{
+	color: #000 !important;
+}
+
+#imagen_central{
+	background-image: url('../img/carrusel/imagen3.jpg');
+ 	height: 300px;
+}
+
+main{
+	margin-top:150px;
+}
