@@ -8,6 +8,20 @@ body{
 }
 
 
+#button_up{
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin: 30px;
+	background-color: #f000;
+	border: 2px solid #2d2d2d;
+	border-radius: 150px;
+	padding: 16px 20px;
+	color: #aba0a0b3;
+}
+
+
 .navbar{
 	padding: 35px 0px;
 	/*background-image: linear-gradient(#000000b3, #fff0);*/
@@ -75,8 +89,18 @@ h5.titulo_footer{
 	font-family:PT Serif;
 	padding: 40px 20px;
 	position: relative;
-	margin-top: -12.6%;
+	margin-top: -9.6%;
 }
+
+
+.fila{
+	padding: 30px 0px;
+}
+
+.fila_grey{
+	background-color: #eaeaea1a;
+}
+
 
 
 /* ANIMACIONES */
@@ -175,6 +199,15 @@ footer ul{
     max-width: 100%;
     height: 100%;
     width: 100%;
+
+}
+
+.titulo_slide{
+ 	 text-shadow: 3px 3px #000;
+    color: #FFF;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 46px;
 
 }
 
