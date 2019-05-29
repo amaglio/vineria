@@ -1,13 +1,12 @@
 <?php include('./templates/header.php') ?>
 
-<link rel="stylesheet" type="text/css" href="css/vinos.css">
+<link rel="stylesheet" type="text/css" href="css/header_blanco.css">
 <link rel="stylesheet" type="text/css" href="css/bodega.css">
-
 <style type="text/css"></style>
 
 <main role="main">
 	
-	<div class="col-lg-12" id="imagen_central">
+	<div class="col-lg-12 imagen_central imagen_bodega" >
 		<div class="container">
 			<h2 class="titulo_slide">Nuestra bodega</h2>
 		</div>
@@ -16,7 +15,7 @@
 
 	<div class="col-lg-12"  >
 		<div class="container">
-			<div class="text-bodega">
+			<div class="text-slide">
 				<p>
 					Con viñedos propios de cepa Malbec, Syrah y Cabernet Franc, y bajo la supervisión un enólogo internacional, cultivamos bajo estrictas normas de calidad nuestra materia prima para la elaboración de vinos de selección premium.
 				</p>
@@ -24,8 +23,9 @@
 		</div>
 	</div>
 	
-	<div class="container">
-		<div class="col-lg-12 fila ">
+	
+	<div class="col-lg-12 div_bodega">
+		<div class="container">
 			<div class="row">
 		    	<div class="col-lg-6 col-md-3  col-xs-12">
 		    		<img src="./img/bodega.jpg" class="img img-fluid"> 
@@ -77,32 +77,7 @@
 		 
 	</div>
 	
-	<div class="container">
-		<div class="col-lg-12">
-		    <div class="row">
-		    	<div class="col-lg-6 col-md-3 col-xs-12">
-		    		  <h5>Nuestros horarios</h5>
-		    		  <p>
-		    		  	De lunes a viernes de 11am a 18pm
-		    		  </p>
-		    		   <p>
-		    		  	15.3623.6584 <br>
-		    		  	4658.2154 <br>
-		    		  	vinos@aceites.com <br>
-		    		  </p>
-		    	</div>
-		    	<div class="col-lg-6 col-md-9 col-xs-12">
-		    		<form action="/procesa_contacto.php" id="form_contacto" method="post">
-			    		<input class="form-control" type="text" id="nombre" name="nombre" placeholder="Tu nombre">
-			    		<input class="form-control" type="text" id="email" name="email" placeholder="Tu Email">
-			    		<textarea class="form-control"></textarea>
-			    		<input type="submit" name="Enviar" class="btn btn-info">
-					</form>
-		    	</div>	
-		    </div>
-			 
-		</div>
-	</div>
+	<?php include('./templates/formulario_seccion.php') ?>
  
 
 	 

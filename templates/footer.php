@@ -2,7 +2,7 @@
 	<footer>
 	  	<div class="container footer">
 	    	<div class="row">
-	    		<div class="col-lg-3 col-md-6  col-xs-12">
+	    		<div class="col-lg-4 col-md-6  col-xs-12">
 					<h5 class="titulo_footer">Viñedos y Olivares del Quintón</h5>
 					<div>
 						<p>
@@ -10,33 +10,31 @@
 							Paraje El Quintón, Colonia.  <br>
 							República Oriental del Uruguay.
 						</p>
-					</div>
-	    		</div>
-	    		<div class="col-lg-3 col-md-6 col-xs-12">
-					<h5 class="titulo_footer">Contáctanos</h5>
-					<p>
+						<p>
 						Office: <a href="tel:06 845 9350">06 845 9350</a> <br>
 						Restaurant: <a href="tel:06 845 9354">06 845 9354</a> <br>
 						Cellar Door: <a href="tel:06 845 9353">06 845 9353</a>
 					</p>
+					</div>
 	    		</div>
-	    		<div class="col-lg-3 col-md-6 col-xs-12">
+	    		 
+	    		<div class="col-lg-4 col-md-6 col-xs-12">
 	    			<h5 class="titulo_footer">Nuestros productos</h5>
 	    			<p>
 		    			<ul>
 		    				<li>Vinos</li>
 		    				<li>Aceites</li>
 		    				<li>Bodega</li>
+		    				<li>Día de campo</li>
+		    				<li>Executive quinton </li>
+		    				<li>Servicios industriales</li> 
 		    			</ul>
 		    		<p>
 	    		</div>
-	    		<div class="col-lg-3 col-md-6 col-xs-12">
-	    		 	<h5 class="titulo_footer">Nuestros servicios</h5>
-	    			<ul>
-	    				<li>Día de campo</li>
-	    				<li>Executive quinton </li>
-	    				<li>Servicios industriales</li> 
-	    			</ul>
+	    		<div class="col-lg-4 col-md-6 col-xs-12 footer_iconos">
+	    			 <i class="fab fa-2x fa-instagram"></i>
+	    			 <i class="fab fa-2x fa-facebook-square"></i>
+	    			 <i class="fab fa-2x fa-youtube"></i>
 	    		</div>
 	    	</div>	
 	  	</div>

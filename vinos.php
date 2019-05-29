@@ -1,10 +1,11 @@
 <?php include('./templates/header.php') ?>
 
-<link rel="stylesheet" type="text/css" href="css/vinos.css">
+<link rel="stylesheet" type="text/css" href="css/header_blanco.css">
+
 
 <main role="main">
 	
-	<div class="col-lg-12" id="imagen_central">
+	<div class="col-lg-12 imagen_central imagen_vinos" >
 		<div class="container">
 			<h2 class="titulo_slide">Nuestros vinos</h2>
 		</div>
@@ -21,7 +22,7 @@
 		</div>
 	</div>
 
-	<div class="col-lg-12 fila fila_grey">
+	<div class="col-lg-12 fila ">
 		<div class="container">
 			<div class="row ">
 		    	<div class="col-lg-4 col-md-3 col-xs-12">
@@ -41,13 +42,13 @@
 					<p class="text-verificacion">
 						Vinificación en bodega propia. Siembra de levaduras seleccionadas. Fermentación alcohólica durante 8 días con temperaturas controladas entre 27-30 °C. Remontajes diarios y maceración post-fermentativa durante 10 días.
 		    		</p>
-		    		<button class="btn btn-info">Comprar</button>
+		    		<a href="./contacto.php" class="btn btn-comprar">Comprar</a>
 		    	</div>	
 		    </div>
 		</div>
 	</div>
 
-	<div class="col-lg-12 fila ">
+	<div class="col-lg-12 fila fila_grey">
 		<div class="container">
 			<div class="row">
 		    	<div class="col-lg-4 col-md-3  col-xs-12">
@@ -67,13 +68,13 @@
 		    		<p class="text-verificacion">
 						Vinificación en bodega propia. Selección manual de racimos. Maceración pre-fermentativa en frio durante 5 días a 10° C. Siembra de levaduras seleccionadas. Fermentación alcohólica durante 14 días con temperaturas controladas entre 27-30 ° C.
 		    		</p>
-		    		<button class="btn btn-info">Comprar</button>
+		    		<a href="./contacto.php" class="btn btn-comprar">Comprar</a>
 		    	</div>	
 		    </div>
 		</div>
 	</div>
 
-	<div class="col-lg-12 fila fila_grey">
+	<div class="col-lg-12 fila  ">
 		<div class="container">
 			<div class="row ">
 		    	<div class="col-lg-4 col-md-3 col-xs-12">
@@ -93,7 +94,7 @@
 		    		<p class="text-verificacion"> 
 						Vinificación en bodega propia. Selección manual de racimos. Maceración pre-fermentativa en frio durante 5 días a 10° C. Siembra de levaduras seleccionadas. Fermentación alcohólica durante 14 días con temperaturas controladas entre 27-30 ° C.
 		    		</p>
-		    		<button class="btn btn-info">Comprar</button>
+		    		<a href="./contacto.php" class="btn btn-comprar">Comprar</a>
 		    	</div>	
 		    </div>
 		</div>

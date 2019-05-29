@@ -1,42 +1,14 @@
-#slide_vino{
-	height: 350px;
-	padding-top: 135px;
+ 
+
+#div_foto_informacion{
+	padding: 60px 0px;
+background-color: #fdfdfd;
 }
 
-.text-slide{
-	font-size: 24px;
-padding: 50px 10px;
-text-align: center;
-}
-
-.navbar{
-	background-image: none;
-}
-
-.nav-link {
-
-    color: #000 !important;
-
-}
-
-.navbar-brand{
-	color: #000 !important;
-}
-
-#imagen_central{
-	background-image: url('../img/carrusel/imagen3.jpg');
- 	height: 300px;
-}
-
-main{
-	margin-top:150px;
-}
-
-.nuestros_vinos .row{
-	padding: 20px 0px;
-}
-
-
-.text-verificacion{
-	font-size: 11px;
+#div_foto_informacion p
+{
+	font-size: 20px;
+font-weight: 400;
+line-height: 33px;
+padding-bottom: 26px;
 }

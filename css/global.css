@@ -1,6 +1,6 @@
 body{
  
-	font-family: 'PT Serif';
+	font-family: "PT Serif", sans-serif;
 	font-weight: 400;
 	src: local('PT Serif Italic'), local('PTSerif-Italic'), url(https://fonts.gstatic.com/s/ptserif/v10/EJRTQgYoZZY2vCFuvAFT_rC1chb-.woff2) format('woff2');
 	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -70,13 +70,31 @@ color: white;
 }
 
 
-h5.titulo_footer{
-	color: #a6975e;
- 
-	font-size: 115%;
-	font-style: normal;
-	font-weight: 500;
+.linea_divisoria{
+	background: #a68342;
+
+height: 1px;
+
+text-align: center;
+
+width: 30%;
+
+margin-top: 50px;
+
+margin-bottom: 50px;
+
+opacity: 0.5;
 }
+
+
+.text-subtitulo{
+	font-size: 16px;
+font-weight: 400;
+color: rgb(102, 102, 102);
+line-height: 22px;
+margin-bottom: 40px;
+}
+
 
 #texto{
  
@@ -102,6 +120,47 @@ h5.titulo_footer{
 }
 
 
+.btn-comprar{
+	background: #a68342;
+
+border: 1px solid #907137;
+
+padding: 10px 20px;
+color: white;
+font-weight: 400;font-size: 22px;
+}
+
+/*
+.text-slide{
+	font-size: 40px;
+	padding: 60px 0px;
+	text-align: center;
+
+}*/
+
+.text-slide{
+	
+	color: rgb(16, 24, 29);
+	font-family: "PT Serif", sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 54px;
+	padding: 40px 30px; 
+	text-align: center;
+}
+
+.imagen_central{ 
+ 	height: 300px;
+}
+
+
+.text-verificacion{
+	font-size: 11px;
+}
+
+
 
 /* ANIMACIONES */
 
@@ -115,11 +174,13 @@ footer{
 /* FOOTER */
 
 
-footer{
-	padding: 50px 30px;
-	background-color: #2d2d2d;
-	margin-top: 50px;
-	color:white;
+ 
+footer {
+    padding-top: 77px;
+    background-color: #2d2d2d;
+    margin-top: 50px;
+    color: white;
+    padding-bottom: 177px;
 }
 
 footer p{
@@ -135,6 +196,36 @@ footer ul{
 .container .overlay:hover {
   opacity: 1;	
 }
+
+h5.titulo_footer{
+	color: #a6975e;
+ 
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-family: "PT Serif", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 300;
+    overflow-wrap: break-word;
+}
+
+footer  .fab{
+	padding: 0px 20px ;
+	color: #a68342;
+}
+
+footer li{
+	padding: 7px 0px;
+}
+
+
+/*END FOOTER */
 
 
 /* ROTAR IMAGENES */
@@ -203,11 +294,14 @@ footer ul{
 }
 
 .titulo_slide{
- 	 text-shadow: 3px 3px #000;
-    color: #FFF;
+ 	    color: #FFF;
     text-align: center;
     padding-top: 10%;
-    font-size: 46px;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
 
 }
 

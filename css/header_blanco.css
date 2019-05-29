@@ -1,0 +1,52 @@
+
+
+.navbar{
+	background-image: none;
+}
+
+.nav-link {
+
+    color: #000 !important;
+
+}
+
+.navbar-brand{
+	color: #000 !important;
+}
+
+.imagen_vinos{
+	background-image: url('../img/headers/header-vinos.jpg');
+ 	height: 300px;
+}
+
+.imagen_aceites{
+	background-image: url('../img/headers/header-aceites.jpg');
+ 	height: 300px;
+}
+
+.imagen_bodega{
+	background-image: url('../img/headers/header-bodega.jpg');
+ 	height: 300px;
+}
+
+.imagen_dia_campo{
+	background-image: url('../img/headers/header-dia_campo.jpg');
+ 	height: 300px;
+}
+
+.imagen_executive_quinton{
+	background-image: url('../img/headers/header-executive_quinton.jpg');
+ 	height: 300px;
+}
+
+.linea_izquierda{
+	
+}
+
+main{
+	margin-top:150px;
+}
+
+.nuestros_vinos .row{
+	padding: 20px 0px;
+}

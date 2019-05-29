@@ -1,7 +1,59 @@
-.img-bodega{
-	padding-bottom: 20px;
+ 
+
+.div_bodega{
+	background-color: #a683421a;
+	padding: 60px 0px;
+}
+
+.div_bodega p{
+	font-size: 25px;
 }
 
 .fotos_bodega{
-	padding: 0px 30px;
+	padding: 60px 40px;
+}
+
+.fotos_bodega .img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#horarios{
+	text-align: center;
+}
+
+#horarios h2,
+#horarios h4
+{
+	padding-bottom: 20px;
+}
+
+#horarios p
+{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+#form_contacto input 
+{
+	height: 55px;
+}
+
+#form_contacto input,
+#form_contacto textarea
+{
+	margin-bottom: 30px;
+	line-height: 30px;
+ 
+}
+
+#form_contacto textarea
+{
+	height: 200px;
 }

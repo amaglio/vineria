@@ -24,11 +24,13 @@
 			    		<img src="img/carrusel/imagen3.jpg"> 
 			    </div>
 			    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    -->
+				    <i class="fas fa-chevron-left fa-3x"></i>
 				    <span class="sr-only">Previous</span>
 				</a>
 				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				   <i class="fas fa-chevron-right fa-3x"></i>
 				    <span class="sr-only">Next</span>
 				</a>
 			</div>

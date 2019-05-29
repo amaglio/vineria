@@ -16,7 +16,8 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/global.css">
 	
-	
+	 <link href='//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|PT+Serif:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Vidaloka:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Roboto:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Prata:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 	<!-- CSS animate -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 

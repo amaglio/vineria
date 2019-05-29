@@ -1,10 +1,11 @@
 <?php include('./templates/header.php') ?>
 
-<link rel="stylesheet" type="text/css" href="css/vinos.css">
+<link rel="stylesheet" type="text/css" href="css/header_blanco.css">
+<link rel="stylesheet" type="text/css" href="css/aceites.css">
 
 <main role="main">
 	
-	<div class="col-lg-12" id="imagen_central">
+	<div class="col-lg-12 imagen_central imagen_aceites" >
 		<div class="container">
 			<h2 class="titulo_slide">Nuestros aceites</h2>
 		</div>
@@ -17,7 +18,8 @@
 				<p>
 					Desarrollamos el cultivo y la producción de aceite de oliva extra virgen de selección premium en una superficie de 120 hectáreas guiadas por estrictas normas de calidad.
 				</p>
-				<p>
+				<hr class="linea_divisoria"  > </hr>
+				<p class="text-subtitulo">
 					Poseemos una trazabilidad de plantado óptima para la cosecha mecanizada, que garantiza la conservación plena de las propiedades del fruto para su molienda y el alcance de los máximos estándares internacionales.
 				</p>
 			</div>
@@ -42,7 +44,7 @@
 					<p>
 		    			<strong>Técnica de cosecha:</strong> mecánica y manual según ubicación de plantaciones.	
 		    		</p>
-		    		<button class="btn btn-info">Comprar</button>
+		    		<button class="btn btn-comprar">Comprar</button>
 		    	</div>	
 		    </div>
 		</div>
