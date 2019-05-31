@@ -1,0 +1,8 @@
+#mapa{
+	padding-top:30px;
+}
+
+#mapa iframe{
+	height: 800px !important;
+	width: 100%;
+}

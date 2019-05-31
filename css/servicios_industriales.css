@@ -1,0 +1,20 @@
+#olivares,
+#vinedos
+{
+	margin-bottom: 40px;
+}
+
+#olivares .row,
+#vinedos .row{
+	padding: 30px 0px;
+}
+
+#olivares h3,
+#vinedos h3
+{
+	text-align: center;
+	padding: 20px;
+	background-color: #fdfdfd;
+	color: #625b5b;
+	font-size: 29px;
+}

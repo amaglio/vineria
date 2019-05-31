@@ -37,12 +37,22 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand navbar-brand-mobile " style="font-size: 50px"  href="./index.html">VYO </a>
+
+			<a class="navbar-brand navbar-brand-mobile " style="font-size: 50px"  href="./index.php"></index>VYO </a>
 			
-			<button class="navbar-toggler" style="position: inherit;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    	<i class="fas fa-bars"></i>
-		  	</button>
-		   
+			<?php  if(  strpos( $_SERVER['REQUEST_URI'], 'index.php') ):	 ?>
+
+				<button class="navbar-toggler" style="position: inherit;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<i class="fas fa-bars"></i>
+			  	</button>
+
+		   <?php else: ?>
+
+		   		<button class="navbar-toggler navbar-blanco" style="position: inherit;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<i class="fas fa-bars"></i>
+			  	</button>
+
+		   <?php endif; ?>
 
 		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav col-lg-5  ">

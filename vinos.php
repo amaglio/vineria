@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/header_blanco.css">
 
 
-<main role="main">
+<main role="main" id=>
 	
 	<div class="col-lg-12 imagen_central imagen_vinos" >
 		<div class="container">

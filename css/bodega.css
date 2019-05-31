@@ -1,7 +1,7 @@
  
 
 .div_bodega{
-	background-color: #a683421a;
+	background-color: #fdfdfd;
 	padding: 60px 0px;
 }
 
@@ -19,41 +19,10 @@
     padding-bottom: 30px;
 }
 
-#horarios{
-	text-align: center;
-}
+@media (max-width: 768px){
+	
+	.div_bodega p{
+		padding-top: 30px;
+	}
 
-#horarios h2,
-#horarios h4
-{
-	padding-bottom: 20px;
-}
-
-#horarios p
-{
-	font-size: 20px;
-}
-
-
-
-
-
-
-
-#form_contacto input 
-{
-	height: 55px;
-}
-
-#form_contacto input,
-#form_contacto textarea
-{
-	margin-bottom: 30px;
-	line-height: 30px;
- 
-}
-
-#form_contacto textarea
-{
-	height: 200px;
 }

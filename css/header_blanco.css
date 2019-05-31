@@ -17,6 +17,7 @@
 .imagen_vinos{
 	background-image: url('../img/headers/header-vinos.jpg');
  	height: 300px;
+ 	
 }
 
 .imagen_aceites{
@@ -39,13 +40,20 @@
  	height: 300px;
 }
 
+.imagen_servicios_industriales{
+	background-image: url('../img/headers/header-servicios_industriales.jpg');
+ 	height: 300px;
+}
+
+.imagen_contacto{
+	background-image: url('../img/headers/header-contacto.jpg');
+ 	height: 300px;
+}
+
 .linea_izquierda{
 	
 }
 
-main{
-	margin-top:150px;
-}
 
 .nuestros_vinos .row{
 	padding: 20px 0px;

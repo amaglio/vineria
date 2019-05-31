@@ -12,7 +12,7 @@
 	margin-top: -31% !important;
 	color: #FFF;
 	background-color: #a6975eb3;
-	font-size: 27px;
+	font-size: larger;
 	padding: 20px 0px;
  }
 
@@ -92,7 +92,7 @@ section{
  
 
 
-@media (max-width: 768px){
+@media (max-width: 991px){
 	
 	
 	#carrusel .carousel-inner {
@@ -104,6 +104,21 @@ section{
     	width: inherit;
     	height: inherit;
 	}
- 
+
+	/*
+
+	.navbar-light .navbar-toggler {
+	    border: 1px solid #e9e9e9;
+	    color: #f0e1e1;
+	    padding: 10px 19px;
+	    font-size: 30px;
+	    background-color: #00000080;
+	    margin-right: 20px;
+	}*/
+ 	
+	.servicio {
+	  
+	    padding: 30px;
+	}
 
 }
