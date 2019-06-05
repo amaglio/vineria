@@ -18,7 +18,7 @@
 
 #div_aceite
 {
-background-color: #a6975e33;
+background-color: #fdfdfd;
 padding: 20px 40px;
 
 }
@@ -36,7 +36,36 @@ padding: 20px 40px;
 } 
 
 
+.servicio .titulo {
 
+    width: inherit;
+    position: absolute;
+    top: 12%;
+    color: white;
+    left: 0px;
+    font-size: 40px;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	font-weight: 500;
+	z-index: 600;
+}
+
+.servicio .flip-box-front p{
+
+    width: inherit;
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 0px;
+    font-size: 23px;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	font-weight: 500;
+	z-index: 600;
+}
+
+.servicio .flip-box-back p{
+
+	z-index: 800;
+}
 .text-video{
 	padding: 60px;
 	background-color: #0000004d;	
@@ -46,6 +75,11 @@ padding: 20px 40px;
 	left: 10%;
 	color: white;
 }
+
+
+
+
+
 
 .servicio{
 
@@ -88,15 +122,93 @@ section{
 }
 
 
+
+
+#carrusel_central #carrusel_div_1{
+	background: url(../img/carrusel/1.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height: 800px;
+}
+
+#carrusel_central #carrusel_div_2{
+	background: url(../img/carrusel/2.jpg) no-repeat center center  ; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+	min-height: 800px;
+}
+
+#carrusel_central #carrusel_div_3{
+	background: url(../img/carrusel/3.jpg) no-repeat center center  ; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height: 800px;
+}
+
+#carrusel_central #carrusel_div_4{
+	background: url(../img/carrusel/4.jpg) no-repeat center center  ; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height: 800px;
+}
+
+#carrusel_central #carrusel_div_5{
+	background: url(../img/carrusel/5.jpg) no-repeat center center  ; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height: 800px;
+}
+
+
+.carousel-indicators  {
+	 bottom: -27px;
+}
+
+.carousel-indicators li{
+	color:red;
+	border-top:  3px solid #a6975e;
+}
+
+.control-vinos{
+	display: none;
+}
+
+
+
+
 /* Media querys */
  
 
 
 @media (max-width: 991px){
 	
-	
+	#carrusel_div_1,
+	#carrusel_div_2,
+	#carrusel_div_3,
+	#carrusel_div_4,
+	#carrusel_div_5{
+ 		min-height: 500px !important; 
+		 
+	}
+
+	#carrusel_div_1 
+	{
+ 		background: url(../img/carrusel/1.jpg) no-repeat top top; 
+		 
+	}
+
 	#carrusel .carousel-inner {
-		height: 280px;
+		height: 100% !important;
 	}
 
  
@@ -120,5 +232,31 @@ section{
 	  
 	    padding: 30px;
 	}
+
+}
+
+
+
+@media (max-width: 768px){
+	
+	
+	#vinos_aceites{
+		text-align: center;
+	}
+	
+	.carousel-indicators{
+		display: none;
+	}
+
+	.control-vinos{
+		display: block;
+		padding-top: 50%;
+	}
+
+	.control-vinos i{
+		color: #a6975e; 
+	}
+  
+
 
 }

@@ -15,39 +15,46 @@
 }
 
 .imagen_vinos{
-	background-image: url('../img/headers/header-vinos.jpg');
+	background-image: url('../img/vinos/header-vinos.jpg');
  	height: 300px;
  	
 }
 
 .imagen_aceites{
-	background-image: url('../img/headers/header-aceites.jpg');
+	background-image: url('../img/aceites/header-aceites.jpg');
  	height: 300px;
+ 	background-position-y: 65%;
 }
 
 .imagen_bodega{
-	background-image: url('../img/headers/header-bodega.jpg');
+	background-image: url('../img/bodega/header-bodega.jpg');
  	height: 300px;
+    background-position-y: 69%;
+
 }
 
 .imagen_dia_campo{
 	background-image: url('../img/headers/header-dia_campo.jpg');
  	height: 300px;
+ 	    background-position-y: 69%;
 }
 
 .imagen_executive_quinton{
 	background-image: url('../img/headers/header-executive_quinton.jpg');
  	height: 300px;
+ 	    background-position-y: 69%;
 }
 
 .imagen_servicios_industriales{
-	background-image: url('../img/headers/header-servicios_industriales.jpg');
+	background-image: url('../img/servicios_industrializados/header-servicios.jpg');
  	height: 300px;
+ 	    background-position-y: 45%;
 }
 
 .imagen_contacto{
 	background-image: url('../img/headers/header-contacto.jpg');
  	height: 300px;
+ 	    background-position-y: 69%;
 }
 
 .linea_izquierda{

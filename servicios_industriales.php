@@ -34,7 +34,7 @@
 				<div class="col-lg-12">
 					<div class="row">
 						<div class="col-lg-3">
-							<img src="./img/bodega.jpg" class="img img-fluid img-bodega">
+							<img src="./img/servicios_industrializados/poda_mecanizada.jpg" class="img img-fluid img-bodega">
 						</div>
 						<div class="col-lg-9">
 							<h4>Sistema de poda mecanizada en olivares</h4>
@@ -46,7 +46,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-3">
-							<img src="./img/bodega.jpg" class="img img-fluid img-bodega">
+							<img src="./img/servicios_industrializados/cosecha_mecanizada.jpg" class="img img-fluid img-bodega">
 						</div>
 						<div class="col-lg-9">
 							<h4>Cosecha mecanizada</h4>
@@ -58,7 +58,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-3">
-							<img src="./img/bodega.jpg" class="img img-fluid img-bodega">
+							<img src="./img/servicios_industrializados/molienda.jpg" class="img img-fluid img-bodega">
 						</div>
 						<div class="col-lg-9">
 							<h4>Molienda y elaboración de aceite</h4>
@@ -70,7 +70,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-3">
-							<img src="./img/bodega.jpg" class="img img-fluid img-bodega">
+							<img src="./img/servicios_industrializados/envasado.jpg" class="img img-fluid img-bodega">
 						</div>
 						<div class="col-lg-9">
 							<h4>Envasado</h4>
@@ -91,7 +91,7 @@
 			<div class="col-lg-12">
 				<div class="row">
 					<div class="col-lg-3">
-						<img src="./img/bodega.jpg" class="img img-fluid img-bodega">
+						<img src="./img/servicios_industrializados/limpieza_barrica.jpg" class="img img-fluid img-bodega">
 					</div>
 					<div class="col-lg-9">
 						<h4>Limpieza de barricas</h4>
@@ -103,7 +103,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-3">
-						<img src="./img/bodega.jpg" class="img img-fluid img-bodega">
+						<img src="./img/servicios_industrializados/elaboracion_vino.jpg" class="img img-fluid img-bodega">
 					</div>
 					<div class="col-lg-9">
 						<h4>Elaboración de vino</h4>

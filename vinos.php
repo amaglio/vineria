@@ -7,7 +7,7 @@
 	
 	<div class="col-lg-12 imagen_central imagen_vinos" >
 		<div class="container">
-			<h2 class="titulo_slide">Nuestros vinos</h2>
+			<h2 class="titulo_slide">Vinos Viñas del Quintón</h2>
 		</div>
 	</div>
 

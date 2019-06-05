@@ -22,12 +22,14 @@
 	    			<h5 class="titulo_footer">Nuestros productos</h5>
 	    			<p>
 		    			<ul>
-		    				<li>Vinos</li>
-		    				<li>Aceites</li>
-		    				<li>Bodega</li>
-		    				<li>Día de campo</li>
-		    				<li>Executive quinton </li>
-		    				<li>Servicios industriales</li> 
+		    				<li><a href="bodega.php">Bodega</a>  </li>
+		    				<li><a href="almazara.php">Almazara</a> </li>
+		    				<li><a href="turismo.php">Turismo</a> </li>
+		    				<li><a href="vinos.php">Vinos</a> </li>
+		    				<li><a href="aceites.php">Aceites</a> </li>
+		    				<li><a href="quienes_somos.php">Quiénes somos</a> </li> 
+		    				<li><a href="servicios_industriales.php">Servicios industriales</a> </li> 
+		    				<li><a href="contacto.php">Contacto</a> </li>
 		    			</ul>
 		    		<p>
 	    		</div>
@@ -47,6 +49,36 @@
 		</button>
 	</div>
 		 
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+			$("#form_contacto").validate({
+										  rules: {
+										     
+										    nombre: "required",
+										    
+										    email: {
+										      required: true,
+										      email: true
+										    }
+
+										  },
+										   messages:{
+										   	
+										   	nombre: "El nombre es obligatorio",
+
+
+										    email: {
+										      required: "El email es obligatorio",
+										      email: "El formato de email es incorrecto"
+										    }
+
+										   }
+
+										});
+	</script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </body>
+	
 </html>

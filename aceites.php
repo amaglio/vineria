@@ -7,7 +7,7 @@
 	
 	<div class="col-lg-12 imagen_central imagen_aceites" >
 		<div class="container">
-			<h2 class="titulo_slide">Nuestros aceites</h2>
+			<h2 class="titulo_slide">Aceites Piedras del Olivar</h2>
 		</div>
 	</div>
 
@@ -30,7 +30,7 @@
 		<div class="container">
 			<div class="row ">
 		    	<div class="col-lg-4 col-md-3 col-xs-12">
-		    		<img class="img-fluid" src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
+		    		<img class="img-fluid" src="./img/aceites/piedras_olivar.jpeg"> 
 		    	</div>
 		    	<div class="col-lg-8 col-md-9 col-xs-12">
 		    		<h5>Aceite de Oliva Extra Virgen</h5>

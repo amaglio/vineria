@@ -17,4 +17,23 @@
 	background-color: #fdfdfd;
 	color: #625b5b;
 	font-size: 29px;
+	letter-spacing: 3px;
+}
+
+#olivares h4,
+#vinedos h4
+{
+    font-size: 1.5rem;
+    padding: 10px 0px 5px 0px; 
+}	
+
+
+@media (max-width: 991px){  
+	
+	#olivares,
+	#vinedos
+	{ 
+	    text-align: center;
+	}	
+
 }
