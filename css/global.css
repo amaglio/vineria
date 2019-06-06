@@ -44,7 +44,7 @@ color: #fff;
 }*/
 
 .navbar{
-	padding: 35px 0px;
+	padding: 10px 0px;
 	/*background-image: linear-gradient(#000000b3, #fff0);*/
 	background-image: linear-gradient(#000F00, #fff0);
 	position: absolute;
@@ -55,10 +55,13 @@ color: #fff;
 	font-size: 16px;
 	font-weight: 400;	
 }
+.navbar-brand img{
+width: inherit;
+}
 
 .navbar-brand{
 	font-size: 50px;
-	color: white !important;
+	color: white !important; 
 }  
 
 .navbar-brand-mobile{
@@ -110,6 +113,15 @@ margin-bottom: 50px;
 opacity: 0.5;
 }
 
+.img-logo-header{
+	width: 14% !important;
+opacity: 0.6;
+filter: alpha(opacity=50) !important;
+position: absolute;
+top: 69% !important;
+right: 14%;
+filter: brightness(0) invert(1);
+}
 
 .text-subtitulo{
 	font-size: 16px;
@@ -212,7 +224,7 @@ background-position: center center;
  
  
 .body-blanco main{
-	margin-top:150px !important;
+	margin-top: 190px !important;
 } 
 
 
@@ -239,7 +251,7 @@ background-position: center center;
 	    background-color: #2d2d2d;
 	    /*margin-top: 50px;*/
 	    color: white;
-	    padding-bottom: 177px;
+	    padding-bottom: 40px;
 	}
 
 	footer p{
@@ -265,13 +277,13 @@ background-position: center center;
 	}
 
 	footer p {
-	    color: #FFFFFF;
-	    font-family: "PT Serif", sans-serif;
-	    font-size: 16px;
-	    line-height: 25px;
-	    font-style: normal;
-	    font-weight: 300;
-	    overflow-wrap: break-word;
+	   color: #C0C0C0;
+		font-family: "PT Serif", sans-serif;
+		font-size: 16px;
+		line-height: 30px;
+		font-style: normal;
+		font-weight: 300;
+		overflow-wrap: break-word;
 	}
 
 	footer  .fab{
@@ -286,6 +298,15 @@ background-position: center center;
 	footer li{
 		padding: 7px 0px;
 	}
+
+	footer a {
+	    color: #fff;
+	    text-decoration: none;
+	    background-color: transparent;
+	    font-size: 18px;
+	    font-weight: 300;
+	}
+
 
 /*END FOOTER */
 
@@ -426,13 +447,20 @@ label {
 /* END FORMULARIO */
 
 
-
+.img-vino{
+	width: inherit;
+}
 
 /*
 	Cambia a responsive segun boostrap
  */
 @media (max-width: 991px){   
 	
+	.img-logo-header{
+		width: 21% !important; 
+		top: 73% !important; 
+	}
+
 	footer{
 		padding-bottom: 77px;
 	}
@@ -443,7 +471,7 @@ label {
 	
 	.body-blanco main {
 
-	    margin-top: 107px !important;
+	    margin-top: 175px !important;
 
 	}
 
@@ -469,7 +497,21 @@ label {
 
 	.navbar-brand-mobile{
 			display: block; 
+			margin: 0 auto;
+			width: initial;
 	}
+	
+ 
+
+	a.navbar-brand-mobile{
+		text-align: center;	
+	}
+
+	.navbar-brand-mobile img{
+			width: 60%;
+	}
+
+
 	.nav-link {
 
 	    color: #666666 !important;
@@ -490,6 +532,7 @@ label {
 	    color: #FFF;
 	    padding: 10px 19px;
 	    font-size: 30px; 
+	    top: 50px;
  
 	}
 
@@ -510,8 +553,9 @@ label {
 	
 	.navbar-toggler{
 
-	    position: relative;   
-	    left: 90% !important;
+	    position: absolute;   
+	    top: 20px
+	    left: 10% !important;
 
 	}
 
@@ -532,7 +576,7 @@ label {
 	}
 	
 	.navbar-brand{
-		padding-left: 30px;
+		/*padding-left: 30px;*/
 	}
 	
 	/* CAMBIAR
@@ -547,6 +591,10 @@ label {
 
 @media (max-width: 768px){
 	
+	.img-logo-header{
+		width: 21% !important; 
+		top: 73% !important; 
+	}
 	
 	.footer{
 		text-align: center;

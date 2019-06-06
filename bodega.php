@@ -7,8 +7,12 @@
 <main role="main">
 	
 	<div class="col-lg-12 imagen_central imagen_bodega" >
+		<div class="sombra_slide">
+			
+		</div>
 		<div class="container">
 			<h2 class="titulo_slide">Bodega Viñas del Quintón</h2>
+			<img  class="img-logo-header" src="./img/logo/logo_vinedo1.png">
 		</div>
 	</div>
 
@@ -17,7 +21,7 @@
 		<div class="container">
 			<div class="text-slide">
 				<p>
-					Con viñedos propios de cepa Malbec, Syrah y Cabernet Franc, y bajo la supervisión un enólogo internacional, cultivamos bajo estrictas normas de calidad nuestra materia prima para la elaboración de vinos de selección premium.
+					Con viñedos propios de cepa Malbec y Syrah, y bajo la supervisión un enólogo internacional, cultivamos bajo estrictas normas de calidad nuestra materia prima para la elaboración de vinos de selección premium.
 				</p>
 			</div>
 		</div>

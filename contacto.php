@@ -9,7 +9,8 @@
 	
 	<div class="col-lg-12 imagen_central imagen_contacto" >
 		<div class="container">
-			<h2 class="titulo_slide">Contacto</h2>
+			<h2 class="titulo_slide">Información y consultas </h2>
+			<img  class="img-logo-header" src="./img/logo/logo_vinedo1.png">
 		</div>
 	</div>
  

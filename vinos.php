@@ -8,6 +8,7 @@
 	<div class="col-lg-12 imagen_central imagen_vinos" >
 		<div class="container">
 			<h2 class="titulo_slide">Vinos Viñas del Quintón</h2>
+			<img  class="img-logo-header" src="./img/logo/logo_vinedo1.png">
 		</div>
 	</div>
 
@@ -26,13 +27,13 @@
 		<div class="container">
 			<div class="row ">
 		    	<div class="col-lg-4 col-md-3 col-xs-12">
-		    		<img class="img-fluid" src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
+		    		<img class="img-vino" src="./img/vinos/bruna-negra.png"> 
 		    	</div>
 		    	<div class="col-lg-8 col-md-9 col-xs-12">
 		    		<h5>Malbec Selección | Gran Reserva</h5>
 		    		<h1>Bruna Etiqueta Negra</h1>
 		    		<p>24 meses en barrica de roble francés</p>
-		    		<h4><strong>Varietal:</strong> Malbec 2018, con un corte de Syrah en un 10 %</h4>
+		    		<h4><strong>Varietal:</strong> Malbec, con un corte de Syrah en un 10 %</h4>
 		    		<p>
 		    			Es de color rojo rubí, a la nariz se presenta con aromas a frutos rojos y ciruelas en su punto óptimo de madurez. En boca es equilibrado y suave, con un excelente final, perdurable, por la presencia de la cepa syrah.
 		    		</p>
@@ -52,13 +53,13 @@
 		<div class="container">
 			<div class="row">
 		    	<div class="col-lg-4 col-md-3  col-xs-12">
-		    		<img src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
+		    		<img class="img-vino" src="./img/vinos/bruna1.png"> 
 		    	</div>
 		    	<div class="col-lg-8 col-md-9  col-xs-12">
 		    		<h5>Malbec Selección | Reserva</h5>
 		    		<h1>Bruna</h1>
 		    		<p>14 meses en barrica de roble francés</p>
-		    		<h4><strong>Varietal:</strong> Malbec 2017</h4>
+		    		<h4><strong>Varietal:</strong> Malbec </h4>
 		    		<p>
 		    			A la vista tiene un rojo brillante profundo, presenta aromas a ciruelas y frutas rojas maduras, ensamblado con vainilla, chocolate y tabaco.
 		    		</p>
@@ -78,13 +79,13 @@
 		<div class="container">
 			<div class="row ">
 		    	<div class="col-lg-4 col-md-3 col-xs-12">
-		    		<img src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
+		    		<img class="img-vino" src="./img/vinos/petra.png"> 
 		    	</div>
 		    	<div class="col-lg-8 col-md-9 col-xs-12">
 		    		<h5>Malbec</h5>
 		    		<h1>Petra</h1>
 		    		<p>12 meses en barrica de roble francés</p>
-		    		<h4><strong>Varietal:</strong> Malbec 2018</h4>
+		    		<h4><strong>Varietal:</strong> Malbec </h4>
 		    		<p>
 		    			Es de color violeta intenso, a la nariz se presenta con aromas a frutos rojos y presencia floral particularmente violetas.
 		    		</p>

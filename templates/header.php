@@ -47,17 +47,17 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
 
-			<a class="navbar-brand navbar-brand-mobile " style="font-size: 50px"  href="./index.php"></index>VYO </a>
+			<a class="navbar-brand navbar-brand-mobile "   href="./index.php"></index><img class="img img-responsive" src="./img/logo/logo_vinedo2.png">  </a> </a>
 			
 			<?php  if(  strpos( $_SERVER['REQUEST_URI'], '/index.php') ):	 ?>
 
-				<button class="navbar-toggler" style="position: inherit;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler"   type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    	<i class="fas fa-bars"></i>
 			  	</button>
 
 		   <?php else: ?>
 
-		   		<button class="navbar-toggler navbar-blanco" style="position: inherit;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		   		<button class="navbar-toggler navbar-blanco" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    	<i class="fas fa-bars"></i>
 			  	</button>
 
@@ -73,14 +73,14 @@
 				        <a class="nav-link" href="almazara.php">Almazara</a>
 				    </li>
 				    <li class="nav-item col-lg-3">
-				        <a class="nav-link" href="./executive_quinton.php"> Turismo	</a>
+				        <a class="nav-link" href="./turismo.php"> Turismo	</a>
 				    </li>
 				    <li class="nav-item  col-lg-3 ">
 				        <a class="nav-link" href="vinos.php">Vinos </a>
 				    </li>
 			      
 			    </ul>
-			    <a class="navbar-brand col-lg-2 text-center"    href="./index.php">VYO </a>
+			    <a class="navbar-brand col-lg-2 text-center" href="./index.php"> <img class="img img-responsive" src="./img/logo/logo_vinedo2.png">  </a>
 			    <ul class="navbar-nav col-lg-5">
 			       	<!-- <li class="nav-item  col-lg-3">
 			        		<a class="nav-link" href="./dia_campo.php">Día de campo</a>

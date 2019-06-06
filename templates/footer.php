@@ -11,9 +11,7 @@
 							República Oriental del Uruguay.
 						</p>
 						<p>
-						Office: <a href="tel:06 845 9350">06 845 9350</a> <br>
-						Restaurant: <a href="tel:06 845 9354">06 845 9354</a> <br>
-						Cellar Door: <a href="tel:06 845 9353">06 845 9353</a>
+						Telefono: <a href="tel:00598 45203418">00598 45203418</a> <br>
 					</p>
 					</div>
 	    		</div>

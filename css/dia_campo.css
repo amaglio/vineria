@@ -12,3 +12,7 @@ font-weight: 400;
 line-height: 33px;
 padding-bottom: 26px;
 }
+
+.list-group-item{
+	border: none;
+}

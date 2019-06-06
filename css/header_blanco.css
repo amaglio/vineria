@@ -23,7 +23,7 @@
 .imagen_aceites{
 	background-image: url('../img/aceites/header-aceites.jpg');
  	height: 300px;
- 	background-position-y: 65%;
+ 	background-position-y: 61%;
 }
 
 .imagen_bodega{
@@ -42,7 +42,7 @@
 .imagen_executive_quinton{
 	background-image: url('../img/headers/header-executive_quinton.jpg');
  	height: 300px;
- 	    background-position-y: 69%;
+ 	    background-position-y: 10%;
 }
 
 .imagen_servicios_industriales{
@@ -54,8 +54,27 @@
 .imagen_contacto{
 	background-image: url('../img/headers/header-contacto.jpg');
  	height: 300px;
- 	    background-position-y: 69%;
+ 	    background-position-y: 2%;
 }
+
+.imagen_almazara{
+	background-image: url('../img/almazara/header-almazara.jpg');
+ 	height: 300px;
+ 	background-position-y: 15%;
+}
+
+.imagen_turismo{
+	background-image: url('../img/turismo/header-turismo.jpg');
+ 	height: 300px;
+ 	background-position-y: 97%;
+}
+
+.imagen_quienes_somos{
+	background-image: url('../img/quienes_somos/header-quienes_somos.jpg');
+ 	height: 300px;
+ 	background-position-y: 97%;
+}
+
 
 .linea_izquierda{
 	

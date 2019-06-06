@@ -31,9 +31,18 @@ padding: 20px 40px;
 }
 
 
-#video {
-	height: 650px;
+section#video {
+ 
+    padding-bottom: 0px; 
+    height: 637px;
+   
 } 
+
+#ifram_video_home{
+	 min-width: 100%;
+  min-height: 637px;
+
+}
 
 
 .servicio .titulo {
@@ -66,7 +75,7 @@ padding: 20px 40px;
 
 	z-index: 800;
 }
-.text-video{
+/*.text-video{
 	padding: 60px;
 	background-color: #0000004d;	
 	width: 80%;
@@ -75,11 +84,23 @@ padding: 20px 40px;
 	left: 10%;
 	color: white;
 }
+*/
 
 
 
+.text-video{
 
+	padding: 60px;
+	background-color: #0000004d;
+	width: 100%;
+	position: relative;
+	bottom: 500px;
+	color: white; 
+	z-index: 0;
 
+}
+
+ 	
 
 .servicio{
 
@@ -183,6 +204,7 @@ section{
 	display: none;
 }
 
+ 
 
 
 
@@ -192,6 +214,13 @@ section{
 
 @media (max-width: 991px){
 	
+	section#video {
+ 
+	    padding-bottom: 0px; 
+	    height: 500px;
+	   
+	} 
+
 	#carrusel_div_1,
 	#carrusel_div_2,
 	#carrusel_div_3,
@@ -233,12 +262,21 @@ section{
 	    padding: 30px;
 	}
 
+	#ifram_video_home {
+	    min-width: 100%;
+	    min-height: 500px;
+	}
+
 }
 
 
 
 @media (max-width: 768px){
 	
+	#ifram_video_home {
+	    min-width: 100%;
+	    min-height: 350px;
+	}
 	
 	#vinos_aceites{
 		text-align: center;
@@ -257,6 +295,23 @@ section{
 		color: #a6975e; 
 	}
   
+ 
 
+	.text-video {
+	   
+	    bottom: 0;
+	    height: auto;
+	    color: #232323;
+	    background-color: white;
+	    padding: 46px;
+	}
 
+	.text-video h4{
+		font-size: 16px !important;
+	}
+	
+	section#video {
+	    padding-bottom: 0px;
+	    height: 100%;
+	}
 }

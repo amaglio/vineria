@@ -89,7 +89,7 @@
 					Viñedos y Olivares del Quintón da vida a cultivos, cosecha y producción de los más altos estándares en enología y oleología. 
 				</p>
 				<p>
-					Preserva cada atributo de la naturaleza que origina a los productos y a las experiencias en sus hectáreas, para que todas las personas activen el total de sus sentidos.	
+					Preserva cada atributo de la naturaleza que origina a los productos y a las experiencias en sus hectáreas, para que todas las personas activen el total de sus sentidos.
 				</p>
 				<a class="btn btn-conoce-mas" href="./quienes_somos.php">Conocé más</a>
 			</div>
@@ -117,7 +117,7 @@
 					    </div>
 					    <div class="flip-box-back">
 					      <h2>BODEGA</h2>
-					      <p>Gravitacional y de diseño único, para concretar la producción premium originada en nuestros viñedos. </p>
+					      <p>Gravitacional y de diseño único, para concretar la producción premium originada en nuestros viñedos.  </p>
 					    </div>
 					  </div>
 					</div>
@@ -134,7 +134,7 @@
 					    </div>
 					    <div class="flip-box-back">
 					      <h2>ALMAZARA	</h2>
-					      <p> </p>
+					      <p>Producción de los mejores aceites con estándares europeos de última generación.  </p>
 					    </div>
 					  </div>
 					</div>
@@ -148,11 +148,11 @@
 					    <div class="flip-box-front">
 					    	<div class="oscurecer"></div>
 					     <img src="./img/enoturismo/enoturismo_servicio.jpg" style="" class="img-responsive img-fluid rounded img_producto">
-					     <span class="titulo">ENOTURISMO <br>OLEOTURISMO </span>					     
+					     <span class="titulo"> TURISMO </span>					     
 					    </div>
 					    <div class="flip-box-back">
-					      <h2>ENOTURISMO <br>OLEOTURISMO</h2>
-					      <p> </p>
+					      <h2>TURISMO</h2>
+					      <p>Experiencias sublimes en diálogo con un ecosistema único </p>
 					    </div>
 					  </div>
 					</div>
@@ -180,39 +180,39 @@
 						    <div id="carrusel_div_1" class="carousel-item active">  
 						    	<div class="row">
 							    	<div class="col-lg-5 col-md-4 ">
-							    		<img class="img-responsive" src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
+							    		<img class="img-vino" src="./img/vinos/bruna-negra.png">
 							    	</div>
 							    	<div class="col-lg-7 col-md-8 ">
 							    		<h5>Malbec Selección | Gran Reserva</h5>
 							    		<h1>Bruna Etiqueta Negra</h1>
 							    		<p>24 meses en barrica de roble francés</p>
-							    		<h4><strong>Varietal:</strong> Malbec 2018, con un corte de Syrah en un 10 %</h4>
+							    		<h4><strong>Varietal:</strong> Malbec, con un corte de Syrah en un 10 %</h4>
 							    	</div>	
 							  	</div>
 						    </div>
 						    <div id="carrusel_div_2" class="carousel-item"> 
 						    	<div class="row">
 							    	<div class="col-lg-5 col-md-4">
-							    		<img src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
+							    		<img class="img-vino" src="./img/vinos/bruna1.png"> 
 							    	</div>
 							    	<div class="col-lg-7 col-md-8">
 							    		<h5>Malbec Selección | Reserva</h5>
 							    		<h1>Bruna</h1>
 							    		<p>14 meses en barrica de roble francés</p>
-							    		<h4><strong>Varietal:</strong> Malbec 2017</h4>
+							    		<h4><strong>Varietal:</strong> Malbec </h4>
 							    	</div>	
 							    </div>
 						    </div>
 						    <div id="carrusel_div_3" class="carousel-item"> 	
 						    	<div class="row">
 							    	<div class="col-lg-5 col-md-4">
-							    		<img src="./img/vinos/bruna_etiqueta_negra_malbec.jpg"> 
+							    		<img class="img-vino" src="./img/vinos/petra.png"> 
 							    	</div>
 							    	<div class="col-lg-7 col-md-8">
 							    		<h5>Malbec</h5>
 							    		<h1>Petra</h1>
 							    		<p>12 meses en barrica de roble francés</p>
-							    		<h4><strong>Varietal:</strong> Malbec 2018</h4>
+							    		<h4><strong>Varietal:</strong> Malbec</h4>
 							    	</div>	
 							    </div>
 						    </div>
@@ -241,7 +241,7 @@
 				    	<div class="row">
 				    	
 					    	<div class="col-lg-6 col-md-4">
-					    		<img class="img-fluid" src="./img/aceites/aceite.png"> 
+					    		<img class="img-fluid" src="./img/aceites/piedras_olivar2.png"> 
 					    	</div>
 					    	<div class="col-lg-6 col-md-8">
 					    		<h5>Aceite de Oliva Extra Virgen</h5>
@@ -259,16 +259,23 @@
 
 	<!-- Video -->
 	<section id="video" >
-			 
-		<iframe width="100%" height="700px" src="https://www.youtube.com/embed/qS8ikPf9Bf0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	 	
+	 	
 		
+		<iframe id="ifram_video_home"  src="https://www.youtube.com/embed/qS8ikPf9Bf0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</iframe>  
 		<div class="text-video">
-			<h3>Weddings</h3>
-			<p>
-				Offering an elegant wedding experience in lovingly restored classic surroundings, with magnificent views and complimented with world class cuisine and wines.  Mission provides the complete wedding service all in the one convenient and stunning location.
-			</p>
-		</div>			   
+			<div class="container" style="padding: 0px 50px">
+				<h1>Weddings</h1>
+				<h4>
+					Offering an elegant wedding experience in lovingly restored classic surroundings, with magnificent views and complimented with world class cuisine and wines.  Mission provides the complete wedding service all in the one convenient and stunning location.
+				</h4>
+			</div>
+		</div>
+			 
 	</section>
+
+
 </main>
 	
 <?php include('./templates/footer.php') ?>

@@ -13,6 +13,7 @@
 	<div class="col-lg-12 imagen_central imagen_servicios_industriales" >
 		<div class="container">
 			<h2 class="titulo_slide">Servicios industriales</h2>
+			<img  class="img-logo-header" src="./img/logo/logo_vinedo1.png">
 		</div>
 	</div>
 

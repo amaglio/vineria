@@ -2,11 +2,11 @@
 	<div class="col-lg-12">
 	    <div class="row">
 	    	<div class="col-lg-6 col-md-6 col-xs-12" id="horarios">
-	    		  <h2>Nuestros horarios</h2>
+	    		 <!--  <h2>Nuestros horarios</h2>
 	    		  <p>
 	    		  	De lunes a viernes de 11am a 18pm
 	    		  </p>
-	    		  <hr class="linea_divisoria linea_izquierda"  > </hr>
+	    		  <hr class="linea_divisoria linea_izquierda"  > </hr> -->
 	    		  <h2>Nuestro contacto</h2>
 	    		   <p>
 	    		  	15.3623.6584 
